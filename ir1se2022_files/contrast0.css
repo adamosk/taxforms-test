@@ -1,0 +1,424 @@
+
+.menuTop1Style { background-color: #009E9E;} /*#00a8a8*/
+
+.menuTop2Style { background-color: #84cfca;}
+
+a.linkMenu11W {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.675em;
+   color:#ffffff;
+   text-decoration:none;
+   font-weight:bold;
+}
+a.linkMenu11W:hover, a.linkMenu11W:focus {
+   color:#000000;/*#c23b12;*/
+   background-color: #FBEF08;
+}
+
+a.linkMenu11B {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.675em;
+   color:#000000;
+   text-decoration:none;
+   font-weight:bold;
+}
+a.linkMenu11B:hover, a.linkMenu11B:focus {
+	color:#000000;/*#c23b12;*/
+   background-color: #FBEF08;
+}
+
+a.linkMenu11G {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.675em;
+   color:#555555;
+   text-decoration:none;
+   font-weight:bold;
+}
+a.linkMenu11G:hover, a.linkMenu11G:focus {
+   color:#555555;/*#c23b12;*/
+   background-color: #FBEF08;
+}
+
+a.linkFoot11 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.675em;
+   color:#000000;
+   text-decoration:none;
+}
+a.linkFoot11:hover, a.linkFoot11:focus{
+   color:#000000;
+   background-color: #FBEF08;
+}
+
+.btnMenu11G {
+	border:0px;
+	background-color:	#ffffff;
+	text-decoration:none;
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.675em;
+	color:#555555;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.btnMenu11G:hover, .btnMenu11G:focus {
+	color:#555555;
+	background-color: #FBEF08;
+}
+
+.txt10Foot {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   text-decoration:none;
+   color:#6d4005;/*# d67900*/
+}
+
+.wintxt12BL {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.75em;
+	font-weight:bold;
+	color:#009E9E; /*#00a8a8;*/
+}
+
+.wintitle {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.75em;
+   font-weight:bold;
+   color:#ffffff;
+   background-color: #009E9E; /*#00a8a8; #6699CC;*/
+}
+
+.menuTopStyle { background-color: #5078a1;/*#6699CC;*/}
+
+a:hover, a:focus { color:#cc0000;}
+
+.taxheader18 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:1.125em;
+   font-weight:bold;
+   color:#336633;
+}
+
+.taxbtnSelTeam {
+   border-bottom:		1px solid #000000;
+   border-top:			1px solid #000000;
+   border-left:		1px solid #000000;
+   border-right:		1px solid #000000;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.625em;
+   background-color:	#F0F5E9;
+   color:				#336633;
+   font-weight:bold;
+   cursor:pointer;
+}
+
+.taxbtn70SelTeam {
+	border-bottom:		1px solid #000000;
+	border-top:			1px solid #000000;
+	border-left:		1px solid #000000;
+	border-right:		1px solid #000000;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.625em;
+	background-color:	#F0F5E9;
+	color:				#336633;
+	font-weight:bold;
+	cursor:pointer;
+	width:70px;
+}
+
+a.link10W:hover, a.link10W:focus {
+   color:#c23b12;/*#FF9900;*/
+   background-color: #DCFFFF;
+}
+
+a.lmenu {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em; 
+   font-weight:bold;
+   color: #6f6f6f;/*#777777;*/
+}
+
+a.lmenu:hover, a.lmenu:focus{
+   color: #c23b12;/*#FF9900;*/
+}
+
+a.lmenu11 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em; 
+   font-weight:bold;
+   color: #6f6f6f;
+}
+
+a.lmenu11:hover, a.lmenu11:focus{
+   color: #c23b12;
+}
+
+a.link10:hover, a.link10:focus{
+   color:#996c1c;
+}
+
+a.faqlinkO {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   font-weight:bold;
+   color:#6f6f6f;/*#777777;*/
+}
+
+a.faqlinkO:hover, a.faqlinkO:focus {
+   color:#c23b12;/*#FF9900;*/
+}
+
+.tab10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   text-decoration:none;
+   color:#6f6f6f;/*#777777;*/
+   font-weight:bold;
+}     
+
+.newshead {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.75em;
+   font-weight:bold;
+   color:#b35005;/*#FF9900;*/
+   text-decoration:underline;
+}
+
+.declBg {
+	background-color: #F0F5E9;
+}
+
+.taxtxt10bg {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   text-decoration:none;
+   color:#336633;
+   background-color: #F0F5E9;
+}
+
+.taxtxt10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   text-decoration:none;
+   color:#336633;
+}
+
+.taxtxt9bg {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.5625em;
+   text-decoration:none;
+   color:#336633;
+   background-color: #F0F5E9;
+}	
+
+.taxtxt9 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.5625em;
+   text-decoration:none;
+   color:#336633;
+}	
+
+.taxmicro{
+	font-size:0.5em;
+	font-family:Tahoma,Verdana,Arial;
+	color:#336633;
+}
+
+.taxmicro9bg{
+	font-size:0.5625em;
+	font-family:Tahoma,Verdana,Arial;
+	color:#336633;
+	background-color: #F0F5E9;
+}
+
+.taxmicro9{
+	font-size:0.5625em;
+	font-family:Tahoma,Verdana,Arial;
+	color:#336633;
+}
+
+.spanDigit { /*in taxtxt10 */
+    border: 1.5px solid #000000;
+    font-size: 1em;
+    font-family:Tahoma;
+    font-weight: bold;
+    height: 13px; 
+    width:14px;
+}
+
+.taxheaderBg {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   font-weight:bold;
+   color:#336633;
+   background-color: #F0F5E9;
+}
+
+
+.taxheader {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   font-weight:bold;
+   color:#336633;
+}
+
+.taxheader12 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.75em;
+   font-weight:bold;
+   color:#336633;
+}
+
+.taxheaderblackBg {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.9375em;
+	font-weight:bold;
+	color:#336633;
+	background-color: #F0F5E9;
+}
+
+.taxheaderblack {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.9375em;
+	font-weight:bold;
+	color:#336633;
+}
+
+.taxheaderblack11 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	color:#336633;
+}
+
+.navbtn:hover, .navbtn:focus {
+	background-color: #FFFF99;	/*#FF9900;*/
+}
+
+.fldSet {
+	border:1px solid #B6C7E5;
+}
+
+.txt10bg {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   text-decoration:none;
+   color:#333333;
+   background-color: #F0F5E9;
+}
+
+.txt9 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.5625em;
+   text-decoration:none;
+   color:#333333;
+}
+
+.btxt9 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.5625em;
+   font-weight:bold;
+   text-decoration:none;
+   color:#333333;
+}
+
+.txt10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.6875em;
+   text-decoration:none;
+   color:#333333;
+}
+
+.txt10sm {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	text-decoration:none;
+	color:#333333;
+}
+
+.btxt10sm {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333333;
+}
+
+.btxt10 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	text-decoration:none;
+	color:#333333;
+}
+
+.txt12 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.75em;
+   text-decoration:none;
+   color:#333333;
+}
+
+.wintxt {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	color:#555555;
+}
+
+.cellbgImgTab10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   text-decoration:none;
+   color:#6f6f6f;/*#777777;*/
+   font-weight:bold;
+   background-image: url("../images/cellbg.gif"); 
+}
+
+.wintxt12 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.75em;
+	font-weight:bold;
+	color:#555555;
+}
+.wintxt11 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	color:#555555;
+}
+
+.rare {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	text-decoration:none;
+	line-height:160%;
+	color:#333333;
+}
+
+.taxtxt8bg {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.5em;
+	text-decoration:none;
+	color:#336633;
+	background-color: #F0F5E9;
+}
+
+.taxtxt8 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.5em;
+	text-decoration:none;
+	color:#336633;
+}
+
+.viesDeclBg {
+	background-color: #C0EED7;
+}
+
+.intra11DeclBg {
+	background-color: #99CCFF;
+}
+
+.intra12DeclBg {
+	background-color: #d2d2d2;
+}

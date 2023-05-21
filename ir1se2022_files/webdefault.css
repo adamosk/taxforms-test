@@ -1,0 +1,541 @@
+
+html {
+   height: 100%;
+}
+
+body {
+   height: 100%;
+   margin:0;
+   padding: 0;
+   background-color: #ffffff;
+   font-size:16px;
+}
+
+.logo {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:24px;
+   font-weight:bold;
+   color:#FF9900;
+}
+
+img.flagTop {
+   border:1px solid #ffffff;
+}
+img.flagTop:hover {
+   border:1px solid #f5f52a;
+}
+
+img.flag {
+   border:1px solid #ffffff;
+}
+
+img.flag:hover {
+   border:2px solid #f5f52a;
+}
+
+a.noBgColor:hover, a.noBgColor:focus {
+	background-color: transparent;
+}
+
+.mainTable {
+   height: 100%; 
+   width: 770px;  
+}
+
+.tableH68 {height:68px;}
+.tableH20 {height:20px;}
+
+.tdheight68 {
+   height:68px;
+   background-image: url("../images/topbg2.gif"); 
+}
+
+.backgroundClearRed {height:2px; background-color: #e30000; }
+
+.brownImg {
+   background-image: url("../images/brown.gif"); 
+}
+
+.mainbgImg {
+   background-image: url("../images/mainbg.gif"); 
+}
+
+.cellbgImg {
+   background-image: url("../images/cellbg.gif"); 
+}
+
+.cellbgImgTxtAtt10 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	text-decoration:none;
+	color:#e30000;
+	font-weight:bold;
+	background-image: url("../images/cellbg.gif"); 
+}
+
+.mainContHidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+   	clip: rect(1px, 1px, 1px, 1px);
+} 
+  
+.mainContVisible {
+	position: absolute !important;
+	clip: auto;
+	background-color: #f5f52a;
+	font-family:Verdana,Tahoma,Arial;
+   	font-size:12px;
+   	border: 1px #000000;
+} 
+
+a span { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; } 
+
+.labelHid { height: 1px; width: 1px; position: absolute; overflow: hidden; top: -10px; } 
+
+.toolbtn {
+   border-bottom: 1px solid #555555;
+   border-top:	1px solid #555555;
+   border-left:	1px solid #555555;
+   border-right: 1px solid #555555;
+   font-family:	Verdana,Tahoma,Arial;
+   font-size: 14px;
+   background-color: #F0F5E9;
+   color: #000000;
+   font-weight:bold;
+   cursor:pointer;
+   width:35px;
+}
+   
+.toolbtn:hover, .toolbtn:focus {
+   border-bottom: 1px solid #000000;
+   border-top:	  1px solid #000000;
+   border-left:	  1px solid #000000;
+   border-right:  1px solid #000000;
+   background-color: #f5f52a;
+}
+
+.winbtn {
+   border-bottom:		1px solid #555555;
+   border-top:			1px solid #555555;
+   border-left:			1px solid #555555;
+   border-right:		1px solid #555555;
+   font-family:			Verdana,Tahoma,Arial;
+   font-size:			0.75em;
+   background-color:	#fafafa;
+   cursor:pointer;
+}
+
+.winbtn:hover, .winbtn:focus {
+   border-bottom:		1px solid #000000;
+   border-top:			1px solid #000000;
+   border-left:			1px solid #000000;
+   border-right:		1px solid #000000;
+   background-color:	#ffff99;
+}
+
+.winbtnAtt {
+	border-bottom:		1px solid #e30000;
+	border-top:			1px solid #e30000;
+	border-left:		1px solid #e30000;
+	border-right:		1px solid #e30000;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	background-color:	#fafafa;
+	color:				#e30000;
+	font-weight:		bold;
+	cursor:pointer;
+}
+
+.winbtnAtt:hover, .winbtn:focus {
+   border-bottom:		1px solid #000000;
+   border-top:			1px solid #000000;
+   border-left:			1px solid #000000;
+   border-right:		1px solid #000000;
+   background-color:	#ffff99;
+}
+
+.taxbtn {
+   border-bottom:		1px solid #555555;
+   border-top:			1px solid #555555;
+   border-left:			1px solid #555555;
+   border-right:		1px solid #555555;
+   font-family:			Verdana,Tahoma,Arial;
+   font-size:			0.625em;
+   background-color:	#F0F5E9;
+   color:				#000000;
+   font-weight:bold;
+   cursor:pointer;
+}
+
+.taxbtn:hover, .taxbtn:focus {
+   border-bottom:	 1px solid #000000;
+   border-top:		 1px solid #000000;
+   border-left:		 1px solid #000000;
+   border-right:	 1px solid #000000;
+   background-color: #ffff99;
+}
+
+.taxbtnSel {
+   border-bottom:	1px solid #000000;
+   border-top:		1px solid #000000;
+   border-left:		1px solid #000000;
+   border-right:	1px solid #000000;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:		0.625em;
+   background-color:#336633;
+   color:			#FFFFFF;
+   font-weight:		bold;
+}        
+
+.taxbtnSelTeam:hover, .taxbtnSelTeam:focus {
+   border-bottom:	1px solid #000000;
+   border-top:		1px solid #000000;
+   border-left:		1px solid #000000;
+   border-right:	1px solid #000000;
+   background-color:#ffff99;
+   color:			#000000;
+}
+
+.taxbtn70Sel {
+	border-bottom:		1px solid #000000;
+	border-top:			1px solid #000000;
+	border-left:		1px solid #000000;
+	border-right:		1px solid #000000;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.625em;
+	background-color:	#336633;
+	color:				#FFFFFF;
+	font-weight:		bold;
+	width:				70px;
+	
+}
+
+.taxbtn70SelTeam:hover, .taxbtn70SelTeam:focus {
+   border-bottom:	1px solid #000000;
+   border-top:		1px solid #000000;
+   border-left:		1px solid #000000;
+   border-right:	1px solid #000000;
+   background-color:#ffff99;
+   color:			#000000;
+}
+
+.btnlink {
+	border:0px;
+	background-color:	#ffffff;
+	text-decoration:underline;
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.btnlink:hover, .btnlink:focus {
+	background-color: #FFFF99;	/*#FF9900;*/
+}
+
+.btnF4link {
+	border:0px;
+	color:	#0000ee;
+	background-color:transparent;
+	text-decoration:underline;
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:normal;
+	cursor:pointer;
+}
+.btnF4link:hover, .btnF4link:focus {
+	color: #cc0000;
+}
+
+.navbtn {
+	border-bottom:		1px solid #555555;
+	border-top:			1px solid #555555;
+	border-left:		1px solid #555555;
+	border-right:		1px solid #555555;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.625em;
+	background-color:	#F9F0C3;
+	color:				#000000;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.navbtnDis {
+	border-bottom:		1px solid #555555;
+	border-top:			1px solid #555555;
+	border-left:		1px solid #555555;
+	border-right:		1px solid #555555;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.625em;
+	background-color:	#c5c5c5;
+	color:				#000000;
+	font-weight:normal;
+	
+}
+
+a.link10W {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   color:#ffffff;
+   text-decoration:underline;
+   font-weight:bold;
+}
+
+a.link10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   color:#333333;
+   text-decoration:underline;
+}
+
+.taxheaderwhite {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:1.125em;
+   font-weight:normal;
+   color:#ffffff;
+}
+
+.taxheaderwhite14 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.875em;
+   font-weight:normal;
+   color:#ffffff;
+}
+
+.taxheaderwhite10 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   font-weight:normal;
+   color:#ffffff;
+}
+
+.taxheaderBoldred13 {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.8125em;
+   font-weight:bold;
+   color:#e30000;
+}
+
+.blur {
+   border:				1px solid #aaaaaa;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#ffffff;
+}
+
+.Rblur {
+   border:				1px solid #aaaaaa;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#ffffff;
+   text-align:       	right;
+}
+
+.RblurRO {
+   border:				1px solid #aaaaaa;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#dddddd;
+   text-align:       	right;
+}
+
+.blurRO {
+   border:				1px solid #aaaaaa;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#dddddd;
+   text-align:       	left;
+}
+
+.focus {
+   border:				1px solid #7F9DB9;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#F1F9FF;
+}
+
+.Rfocus {
+   border:				1px solid #7F9DB9;
+   font-family:		Verdana,Tahoma,Arial;
+   font-size:			0.6875em;
+   background-color:	#F1F9FF;
+   text-align:       	right;
+}
+       
+.faqbigheader{
+	font-family:Verdana,Tahoma,Arial;
+	font-size:1.125em;
+	font-weight:bold;
+	color:#333333;
+}
+
+.faqheader {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.8125em;
+	font-weight:bold;
+	color:#333333;
+}
+
+.faqbody {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	color:#333333;
+}
+		
+.txtAtt10 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	font-weight:bold;
+	text-decoration:none;
+	color:#e30000;
+}
+
+.txtAtt11 {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	font-weight:bold;
+	text-decoration:none;
+	color:#e30000;
+}
+
+
+.wintxtDis {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.6875em;
+	color:#c5c5c5;
+}
+
+.wintxtbox {
+	border:				1px solid #d1d1d1;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	color:#333333;
+}
+
+.lwintxtbox {
+	border:				1px solid #d1d1d1;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	background-color: 	#ffffff;
+	color:#333333;
+}
+
+.lwintxtboxfocus {
+    border:				1px solid #B6C7E5;
+    font-family:      	Verdana,Tahoma,Arial;
+    font-size:        	0.75em;
+	background-color: 	#F1F9FF; /*#F6FBFF;*/
+}
+
+.rolwintxtbox {
+	border:				1px solid #d1d1d1;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	background-color: 	#f5f5f5;
+	color:#333333;
+}
+
+.rorwintxtbox {
+	border:				1px solid #d1d1d1;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	background-color: 	#f5f5f5;
+	text-align:       	right;
+	color:#333333;
+}
+
+.rwintxtbox {
+	border:				1px solid #d1d1d1;
+	font-family:		Verdana,Tahoma,Arial;
+	font-size:			0.75em;
+	background-color: 	#ffffff;
+	text-align:       	right;
+	color:#333333;
+}
+
+.rwintxtboxfocus {
+    border:				1px solid #B6C7E5;
+    font-family:      	Verdana,Tahoma,Arial;
+    font-size:        	0.75em;
+	background-color: 	#F1F9FF; /*#F6FBFF;*/
+	text-align:       	right;
+}
+			
+.eHead {
+	font-family:Verdana,Tahoma,Arial;
+	font-weight: bold;
+	font-size:1.125em;
+	color:#333333;
+}
+
+.divdot {
+	border: 1px dotted black;
+	width:	97%;
+	text-align:	center;
+}
+
+.vatheader {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.9375em;
+	font-weight:bold;
+	color:#000000;
+}
+
+.taxtxt10bl {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.625em;
+	text-decoration:none;
+	color:#000000;
+}
+
+.taxtxt8bl {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.5em;
+	text-decoration:none;
+	color:#000000;
+}
+
+.taxtxt9white {
+	font-family:Verdana,Tahoma,Arial;
+	font-size:0.5625em;
+	font-weight:normal;
+	color:#ffffff;
+}
+
+select.taxtxt10 {
+   border:	1px solid #d1d1d1;
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.625em;
+   text-decoration:none;
+   color:#333333;
+   background-color:#ffffff;
+}
+
+select.taxmicro9{
+	border:	1px solid #d1d1d1;
+	font-size:0.5625em;
+	font-family:Tahoma,Verdana,Arial;
+	color:#333333;
+	background-color:#ffffff;
+}
+
+select.taxtxt11 {
+   border:	1px solid #d1d1d1;
+   font-family:Tahoma,Arial;
+   font-size:0.6875em;
+   text-decoration:none;
+   color:#333333;
+   background-color:#ffffff;
+}
+
+.errtitle {
+   font-family:Verdana,Tahoma,Arial;
+   font-size:0.75em;
+   font-weight:bold;
+   color:#ffffff;
+   background-color: #e30000;
+}
+
+input[type=text]::-ms-clear {
+	display: none;
+}
